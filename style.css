@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Inter, sans-serif;
+    margin: 0;
+    background-color: #23252C;
+    
+}
+
+.lost{
+    color: white;
+    margin: auto;  
+    margin-top: 44px;  
+    margin-bottom: 44px; 
+    width: 500px;
+    text-align: center;
+    background-color: #1A1B21;
+    border-radius: 25px;
+    box-shadow: 0px 10px #202020;
+    
+}
+
+.Info > h2{
+    color:  #F3BF99;
+    font-size: 18px   
+}
+
+.Info > img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 500px;
+}
+
+.Links1{
+    display: flex;
+    align-items: center;    
+}
+
+.Email{
+    margin-left: 40px;
+    text-align: center;
+    width: 200px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.Email > img, .Email > p, .LinkedIn > img, .LinkedIn > p{
+    margin: 15px;  
+
+}
+
+.LinkedIn{
+    margin: auto;
+    margin-right: 40px;
+    width: 200px;
+    background-color: #5093E2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;    
+}
+
+
+
+.About{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.Interests{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.Footer{
+    background-color: #161619;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.Footer > img{
+    height: 40px;
+    margin: 20px;
+    
+}
+
+
+
